@@ -1,0 +1,926 @@
+18:53:58.321 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+18:53:58.624 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/character/character.feature
+18:54:00.299 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:54:01.706 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/api/todolist
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 21
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":2,"name":"ram"}
+
+18:54:02.414 [main] DEBUG com.intuit.karate - 
+1 < 404
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 19 Sep 2017 13:24:02 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":1505827442241,"status":404,"error":"Not Found","message":"No message available","path":"/api/todolist"}
+
+18:54:02.417 [main] DEBUG com.intuit.karate - response time in milliseconds: 1878
+18:54:02.427 [main] ERROR com.intuit.karate - status code was: 404, expected: 200, response time: 1878, url: http://localhost:8080/api/todolist, response: {"timestamp":1505827442241,"status":404,"error":"Not Found","message":"No message available","path":"/api/todolist"}
+18:54:02.565 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:54:02.585 [main] DEBUG com.intuit.karate - 
+1 > DELETE http://localhost:8080/api/todolist/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+18:54:02.604 [main] DEBUG com.intuit.karate - 
+1 < 404
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 19 Sep 2017 13:24:02 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":1505827442601,"status":404,"error":"Not Found","message":"No message available","path":"/api/todolist/1"}
+
+18:54:02.604 [main] DEBUG com.intuit.karate - response time in milliseconds: 20
+18:54:02.605 [main] ERROR com.intuit.karate - status code was: 404, expected: 500, response time: 20, url: http://localhost:8080/api/todolist/1, response: {"timestamp":1505827442601,"status":404,"error":"Not Found","message":"No message available","path":"/api/todolist/1"}
+18:55:22.366 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+18:55:22.687 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/character/character.feature
+18:55:24.312 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:55:25.606 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/api/todolist
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 21
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":1,"name":"ram"}
+
+18:55:25.656 [main] DEBUG com.intuit.karate - 
+1 < 404
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 19 Sep 2017 13:25:25 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":1505827525634,"status":404,"error":"Not Found","message":"No message available","path":"/api/todolist"}
+
+18:55:25.659 [main] DEBUG com.intuit.karate - response time in milliseconds: 1180
+18:55:25.665 [main] ERROR com.intuit.karate - status code was: 404, expected: 200, response time: 1180, url: http://localhost:8080/api/todolist, response: {"timestamp":1505827525634,"status":404,"error":"Not Found","message":"No message available","path":"/api/todolist"}
+18:57:45.807 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+18:57:46.110 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/character/character.feature
+18:57:47.779 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:57:48.791 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/api/todolist.
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 21
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":1,"name":"ram"}
+
+18:57:48.823 [main] DEBUG com.intuit.karate - 
+1 < 404
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 19 Sep 2017 13:27:48 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":1505827668822,"status":404,"error":"Not Found","message":"No message available","path":"/api/todolist."}
+
+18:57:48.825 [main] DEBUG com.intuit.karate - response time in milliseconds: 906
+18:57:48.831 [main] ERROR com.intuit.karate - status code was: 404, expected: 200, response time: 906, url: http://localhost:8080/api/todolist., response: {"timestamp":1505827668822,"status":404,"error":"Not Found","message":"No message available","path":"/api/todolist."}
+19:17:21.896 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+19:17:22.212 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/character/character.feature
+19:17:24.116 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:17:25.076 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/todolist/post
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 21
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":1,"name":"ram"}
+
+19:17:25.782 [main] DEBUG com.intuit.karate - 
+1 < 201
+1 < Content-Length: 0
+1 < Date: Tue, 19 Sep 2017 13:47:25 GMT
+1 < Location: http://localhost:8080/get/1
+
+19:17:25.782 [main] DEBUG com.intuit.karate - response time in milliseconds: 1420
+19:17:25.782 [main] ERROR com.intuit.karate - status code was: 201, expected: 200, response time: 1420, url: http://localhost:8080/todolist/post, response: 
+19:17:25.892 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:17:25.897 [main] DEBUG com.intuit.karate - 
+1 > DELETE http://localhost:8080/todolist/delete/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+19:17:26.008 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Length: 0
+1 < Date: Tue, 19 Sep 2017 13:47:25 GMT
+
+19:17:26.009 [main] DEBUG com.intuit.karate - response time in milliseconds: 112
+19:17:26.010 [main] ERROR com.intuit.karate - status code was: 200, expected: 500, response time: 112, url: http://localhost:8080/todolist/delete/1, response: 
+19:18:51.741 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+19:18:52.076 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/character/character.feature
+19:18:53.852 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:18:55.005 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/todolist/post
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 77
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":2,"name":"hi","status":"string","priority":"string","isCompleted":true}
+
+19:18:55.053 [main] DEBUG com.intuit.karate - 
+1 < 201
+1 < Content-Length: 0
+1 < Date: Tue, 19 Sep 2017 13:48:55 GMT
+1 < Location: http://localhost:8080/get/2
+
+19:18:55.053 [main] DEBUG com.intuit.karate - response time in milliseconds: 1042
+19:18:55.053 [main] ERROR com.intuit.karate - status code was: 201, expected: 200, response time: 1042, url: http://localhost:8080/todolist/post, response: 
+19:18:55.147 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:18:55.168 [main] DEBUG com.intuit.karate - 
+1 > DELETE http://localhost:8080/todolist/delete/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+19:18:55.185 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Length: 0
+1 < Date: Tue, 19 Sep 2017 13:48:55 GMT
+
+19:18:55.185 [main] DEBUG com.intuit.karate - response time in milliseconds: 18
+19:18:55.186 [main] ERROR com.intuit.karate - status code was: 200, expected: 500, response time: 18, url: http://localhost:8080/todolist/delete/2, response: 
+19:19:36.389 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+19:19:36.753 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/character/character.feature
+19:19:38.528 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:19:39.656 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/todolist/post
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 77
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":2,"name":"hi","status":"string","priority":"string","isCompleted":true}
+
+19:19:39.728 [main] DEBUG com.intuit.karate - 
+1 < 201
+1 < Content-Length: 0
+1 < Date: Tue, 19 Sep 2017 13:49:39 GMT
+1 < Location: http://localhost:8080/get/2
+
+19:19:39.730 [main] DEBUG com.intuit.karate - response time in milliseconds: 924
+19:19:39.815 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:19:39.827 [main] DEBUG com.intuit.karate - 
+1 > DELETE http://localhost:8080/todolist/delete/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+19:19:39.942 [main] DEBUG com.intuit.karate - 
+1 < 500
+1 < Connection: close
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 19 Sep 2017 13:49:39 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":1505828979933,"status":500,"error":"Internal Server Error","exception":"org.springframework.dao.EmptyResultDataAccessException","message":"No class com.kgfsl.fixme.model.Todo entity with id 2 exists!","path":"/todolist/delete/2"}
+
+19:19:39.942 [main] DEBUG com.intuit.karate - response time in milliseconds: 116
+19:22:45.207 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+19:22:45.489 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/character/character.feature
+19:22:47.336 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:22:48.521 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/todolist/post
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 77
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":2,"name":"hi","status":"string","priority":"string","isCompleted":true}
+
+19:22:48.564 [main] DEBUG com.intuit.karate - 
+1 < 201
+1 < Content-Length: 0
+1 < Date: Tue, 19 Sep 2017 13:52:48 GMT
+1 < Location: http://localhost:8080/get/2
+
+19:22:48.567 [main] DEBUG com.intuit.karate - response time in milliseconds: 964
+19:22:48.695 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:22:48.713 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/todolist/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+19:22:50.107 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 19 Sep 2017 13:52:50 GMT
+1 < Transfer-Encoding: chunked
+[{"id":3,"name":"hi","status":"string","priority":"string","isCompleted":true},{"id":4,"name":"hi","status":"string","priority":"string","isCompleted":true}]
+
+19:22:50.108 [main] DEBUG com.intuit.karate - response time in milliseconds: 1397
+19:22:50.199 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:22:50.230 [main] DEBUG com.intuit.karate - 
+1 > DELETE http://localhost:8080/todolist/delete/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+19:22:50.362 [main] DEBUG com.intuit.karate - 
+1 < 500
+1 < Connection: close
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 19 Sep 2017 13:52:50 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":1505829170354,"status":500,"error":"Internal Server Error","exception":"org.springframework.dao.EmptyResultDataAccessException","message":"No class com.kgfsl.fixme.model.Todo entity with id 2 exists!","path":"/todolist/delete/2"}
+
+19:22:50.363 [main] DEBUG com.intuit.karate - response time in milliseconds: 135
+19:23:56.446 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+19:23:57.353 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/character/character.feature
+19:24:00.187 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:24:10.056 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/todolist/post
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 77
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":2,"name":"hi","status":"string","priority":"string","isCompleted":true}
+
+19:24:10.385 [main] DEBUG com.intuit.karate - 
+1 < 201
+1 < Content-Length: 0
+1 < Date: Tue, 19 Sep 2017 13:54:10 GMT
+1 < Location: http://localhost:8080/get/2
+
+19:24:10.388 [main] DEBUG com.intuit.karate - response time in milliseconds: 10013
+19:24:10.541 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:24:10.556 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/todolist/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+19:24:10.629 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 19 Sep 2017 13:54:10 GMT
+1 < Transfer-Encoding: chunked
+[{"id":3,"name":"hi","status":"string","priority":"string","isCompleted":true},{"id":4,"name":"hi","status":"string","priority":"string","isCompleted":true},{"id":5,"name":"hi","status":"string","priority":"string","isCompleted":true}]
+
+19:24:10.629 [main] DEBUG com.intuit.karate - response time in milliseconds: 74
+19:24:10.754 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:24:10.785 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/todolist/get/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+19:24:10.801 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Length: 0
+1 < Date: Tue, 19 Sep 2017 13:54:10 GMT
+
+19:24:10.801 [main] DEBUG com.intuit.karate - response time in milliseconds: 16
+19:24:10.910 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:24:10.941 [main] DEBUG com.intuit.karate - 
+1 > DELETE http://localhost:8080/todolist/delete/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+19:24:11.369 [main] DEBUG com.intuit.karate - 
+1 < 500
+1 < Connection: close
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 19 Sep 2017 13:54:10 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":1505829251341,"status":500,"error":"Internal Server Error","exception":"org.springframework.dao.EmptyResultDataAccessException","message":"No class com.kgfsl.fixme.model.Todo entity with id 2 exists!","path":"/todolist/delete/2"}
+
+19:24:11.370 [main] DEBUG com.intuit.karate - response time in milliseconds: 445
+19:24:42.385 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+19:24:42.716 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/character/character.feature
+19:24:44.439 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:24:45.983 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/todolist/post
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 77
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":2,"name":"hi","status":"string","priority":"string","isCompleted":true}
+
+19:24:46.008 [main] DEBUG com.intuit.karate - 
+1 < 201
+1 < Content-Length: 0
+1 < Date: Tue, 19 Sep 2017 13:54:45 GMT
+1 < Location: http://localhost:8080/get/2
+
+19:24:46.010 [main] DEBUG com.intuit.karate - response time in milliseconds: 1377
+19:24:46.137 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:24:46.150 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/todolist/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+19:24:46.176 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 19 Sep 2017 13:54:45 GMT
+1 < Transfer-Encoding: chunked
+[{"id":3,"name":"hi","status":"string","priority":"string","isCompleted":true},{"id":4,"name":"hi","status":"string","priority":"string","isCompleted":true},{"id":5,"name":"hi","status":"string","priority":"string","isCompleted":true},{"id":6,"name":"hi","status":"string","priority":"string","isCompleted":true}]
+
+19:24:46.176 [main] DEBUG com.intuit.karate - response time in milliseconds: 27
+19:24:46.273 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:24:46.274 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/todolist/get/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+19:24:46.282 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Length: 0
+1 < Date: Tue, 19 Sep 2017 13:54:45 GMT
+
+19:24:46.282 [main] DEBUG com.intuit.karate - response time in milliseconds: 8
+19:24:46.353 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:24:46.371 [main] DEBUG com.intuit.karate - 
+1 > DELETE http://localhost:8080/todolist/delete/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+19:24:46.403 [main] DEBUG com.intuit.karate - 
+1 < 500
+1 < Connection: close
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 19 Sep 2017 13:54:45 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":1505829286399,"status":500,"error":"Internal Server Error","exception":"org.springframework.dao.EmptyResultDataAccessException","message":"No class com.kgfsl.fixme.model.Todo entity with id 1 exists!","path":"/todolist/delete/1"}
+
+19:24:46.403 [main] DEBUG com.intuit.karate - response time in milliseconds: 34
+19:32:39.995 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+19:32:40.414 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/character/character.feature
+19:32:42.142 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:32:43.354 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/todolist/post
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 77
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":2,"name":"hi","status":"string","priority":"string","isCompleted":true}
+
+19:32:43.441 [main] DEBUG com.intuit.karate - 
+1 < 201
+1 < Content-Length: 0
+1 < Date: Tue, 19 Sep 2017 14:02:43 GMT
+1 < Location: http://localhost:8080/get/2
+
+19:32:43.444 [main] DEBUG com.intuit.karate - response time in milliseconds: 1110
+19:32:43.615 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:32:43.646 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/todolist/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+19:32:43.662 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 19 Sep 2017 14:02:43 GMT
+1 < Transfer-Encoding: chunked
+[{"id":1,"name":"string","status":"string","priority":"string","isCompleted":true},{"id":2,"name":"hi","status":"string","priority":"string","isCompleted":true}]
+
+19:32:43.662 [main] DEBUG com.intuit.karate - response time in milliseconds: 31
+19:32:43.740 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:32:43.756 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/todolist/get/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+19:32:43.775 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 19 Sep 2017 14:02:43 GMT
+1 < Transfer-Encoding: chunked
+{"id":1,"name":"string","status":"string","priority":"string","isCompleted":true}
+
+19:32:43.776 [main] DEBUG com.intuit.karate - response time in milliseconds: 20
+19:32:43.882 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:32:43.943 [main] DEBUG com.intuit.karate - 
+1 > DELETE http://localhost:8080/todolist/delete
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 1
+1 > Content-Type: text/plain
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+5
+
+19:32:44.025 [main] DEBUG com.intuit.karate - 
+1 < 404
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 19 Sep 2017 14:02:43 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":1505829764005,"status":404,"error":"Not Found","message":"No message available","path":"/todolist/delete"}
+
+19:32:44.026 [main] DEBUG com.intuit.karate - response time in milliseconds: 86
+19:32:44.027 [main] ERROR com.intuit.karate - status code was: 404, expected: 500, response time: 86, url: http://localhost:8080/todolist/delete, response: {"timestamp":1505829764005,"status":404,"error":"Not Found","message":"No message available","path":"/todolist/delete"}
+19:33:54.646 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+19:33:54.941 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/character/character.feature
+19:33:56.725 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:33:58.081 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/todolist/post
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 77
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":2,"name":"hi","status":"string","priority":"string","isCompleted":true}
+
+19:33:58.146 [main] DEBUG com.intuit.karate - 
+1 < 201
+1 < Content-Length: 0
+1 < Date: Tue, 19 Sep 2017 14:03:58 GMT
+1 < Location: http://localhost:8080/get/2
+
+19:33:58.146 [main] DEBUG com.intuit.karate - response time in milliseconds: 1134
+19:33:58.286 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:33:58.302 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/todolist/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+19:33:58.318 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 19 Sep 2017 14:03:58 GMT
+1 < Transfer-Encoding: chunked
+[{"id":1,"name":"string","status":"string","priority":"string","isCompleted":true},{"id":2,"name":"hi","status":"string","priority":"string","isCompleted":true}]
+
+19:33:58.318 [main] DEBUG com.intuit.karate - response time in milliseconds: 16
+19:33:58.381 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:33:58.392 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/todolist/get/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+19:33:58.403 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 19 Sep 2017 14:03:58 GMT
+1 < Transfer-Encoding: chunked
+{"id":1,"name":"string","status":"string","priority":"string","isCompleted":true}
+
+19:33:58.404 [main] DEBUG com.intuit.karate - response time in milliseconds: 13
+19:33:58.505 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:33:58.603 [main] DEBUG com.intuit.karate - 
+1 > DELETE http://localhost:8080/todolist/delete/5
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 1
+1 > Content-Type: text/plain
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+5
+
+19:33:58.712 [main] DEBUG com.intuit.karate - 
+1 < 500
+1 < Connection: close
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 19 Sep 2017 14:03:58 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":1505829838708,"status":500,"error":"Internal Server Error","exception":"org.springframework.dao.EmptyResultDataAccessException","message":"No class com.kgfsl.fixme.model.Todo entity with id 5 exists!","path":"/todolist/delete/5"}
+
+19:33:58.713 [main] DEBUG com.intuit.karate - response time in milliseconds: 113
+19:33:58.714 [main] ERROR com.intuit.karate - status code was: 500, expected: 200, response time: 113, url: http://localhost:8080/todolist/delete/5, response: {"timestamp":1505829838708,"status":500,"error":"Internal Server Error","exception":"org.springframework.dao.EmptyResultDataAccessException","message":"No class com.kgfsl.fixme.model.Todo entity with id 5 exists!","path":"/todolist/delete/5"}
+19:34:20.475 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+19:34:20.788 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/character/character.feature
+19:34:22.526 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:34:23.904 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/todolist/post
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 77
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":2,"name":"hi","status":"string","priority":"string","isCompleted":true}
+
+19:34:23.955 [main] DEBUG com.intuit.karate - 
+1 < 201
+1 < Content-Length: 0
+1 < Date: Tue, 19 Sep 2017 14:04:23 GMT
+1 < Location: http://localhost:8080/get/2
+
+19:34:23.958 [main] DEBUG com.intuit.karate - response time in milliseconds: 1180
+19:34:24.104 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:34:24.162 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/todolist/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+19:34:24.177 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 19 Sep 2017 14:04:23 GMT
+1 < Transfer-Encoding: chunked
+[{"id":1,"name":"string","status":"string","priority":"string","isCompleted":true},{"id":2,"name":"hi","status":"string","priority":"string","isCompleted":true}]
+
+19:34:24.193 [main] DEBUG com.intuit.karate - response time in milliseconds: 31
+19:34:24.266 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:34:24.284 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/todolist/get/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+19:34:24.301 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 19 Sep 2017 14:04:23 GMT
+1 < Transfer-Encoding: chunked
+{"id":1,"name":"string","status":"string","priority":"string","isCompleted":true}
+
+19:34:24.301 [main] DEBUG com.intuit.karate - response time in milliseconds: 19
+19:34:24.373 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:34:24.416 [main] DEBUG com.intuit.karate - 
+1 > DELETE http://localhost:8080/todolist/delete/5
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 1
+1 > Content-Type: text/plain
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+5
+
+19:34:24.444 [main] DEBUG com.intuit.karate - 
+1 < 500
+1 < Connection: close
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 19 Sep 2017 14:04:23 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":1505829864440,"status":500,"error":"Internal Server Error","exception":"org.springframework.dao.EmptyResultDataAccessException","message":"No class com.kgfsl.fixme.model.Todo entity with id 5 exists!","path":"/todolist/delete/5"}
+
+19:34:24.445 [main] DEBUG com.intuit.karate - response time in milliseconds: 32
+19:34:49.876 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+19:34:50.245 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/character/character.feature
+19:34:52.238 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:34:53.882 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/todolist/post
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 77
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":2,"name":"hi","status":"string","priority":"string","isCompleted":true}
+
+19:34:54.091 [main] DEBUG com.intuit.karate - 
+1 < 201
+1 < Content-Length: 0
+1 < Date: Tue, 19 Sep 2017 14:04:54 GMT
+1 < Location: http://localhost:8080/get/2
+
+19:34:54.094 [main] DEBUG com.intuit.karate - response time in milliseconds: 1584
+19:34:54.221 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:34:54.236 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/todolist/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+19:34:54.237 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 19 Sep 2017 14:04:54 GMT
+1 < Transfer-Encoding: chunked
+[{"id":1,"name":"string","status":"string","priority":"string","isCompleted":true},{"id":2,"name":"hi","status":"string","priority":"string","isCompleted":true}]
+
+19:34:54.237 [main] DEBUG com.intuit.karate - response time in milliseconds: 1
+19:34:54.300 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:34:54.324 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/todolist/get/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+19:34:54.340 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 19 Sep 2017 14:04:54 GMT
+1 < Transfer-Encoding: chunked
+{"id":1,"name":"string","status":"string","priority":"string","isCompleted":true}
+
+19:34:54.340 [main] DEBUG com.intuit.karate - response time in milliseconds: 17
+19:34:54.439 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:34:54.484 [main] DEBUG com.intuit.karate - 
+1 > DELETE http://localhost:8080/todolist/delete/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 1
+1 > Content-Type: text/plain
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+5
+
+19:34:54.518 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Length: 0
+1 < Date: Tue, 19 Sep 2017 14:04:54 GMT
+
+19:34:54.518 [main] DEBUG com.intuit.karate - response time in milliseconds: 38
+19:34:54.520 [main] ERROR com.intuit.karate - status code was: 200, expected: 500, response time: 38, url: http://localhost:8080/todolist/delete/2, response: 
+19:53:40.185 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+19:53:40.473 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/character/character.feature
+19:53:42.326 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:53:43.418 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/todolist/post
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 77
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":2,"name":"hi","status":"string","priority":"string","isCompleted":true}
+
+19:53:47.077 [main] DEBUG com.intuit.karate - 
+1 < 201
+1 < Content-Length: 0
+1 < Date: Tue, 19 Sep 2017 14:23:46 GMT
+1 < Location: http://localhost:8080/get/2
+
+19:53:47.082 [main] DEBUG com.intuit.karate - response time in milliseconds: 4641
+19:53:47.217 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:53:47.236 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/todolist/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+19:53:47.798 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 19 Sep 2017 14:23:46 GMT
+1 < Transfer-Encoding: chunked
+[{"id":1,"name":"string","status":"string","priority":"string","isCompleted":true},{"id":3,"name":"hi","status":"string","priority":"string","isCompleted":true}]
+
+19:53:47.798 [main] DEBUG com.intuit.karate - response time in milliseconds: 565
+19:53:47.882 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:53:47.898 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/todolist/get/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+19:53:48.317 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 19 Sep 2017 14:23:48 GMT
+1 < Transfer-Encoding: chunked
+{"id":1,"name":"string","status":"string","priority":"string","isCompleted":true}
+
+19:53:48.318 [main] DEBUG com.intuit.karate - response time in milliseconds: 421
+19:53:48.449 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:53:48.508 [main] DEBUG com.intuit.karate - 
+1 > DELETE http://localhost:8080/todolist/delete/5
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 1
+1 > Content-Type: text/plain
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+5
+
+19:53:49.425 [main] DEBUG com.intuit.karate - 
+1 < 500
+1 < Connection: close
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 19 Sep 2017 14:23:49 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":1505831029242,"status":500,"error":"Internal Server Error","exception":"org.springframework.dao.EmptyResultDataAccessException","message":"No class com.kgfsl.fixme.model.Todo entity with id 5 exists!","path":"/todolist/delete/5"}
+
+19:53:49.426 [main] DEBUG com.intuit.karate - response time in milliseconds: 923
+09:32:26.315 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+09:32:26.556 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/character/character.feature
+09:32:27.947 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:32:29.250 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/todolist/post
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 77
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":2,"name":"hi","status":"string","priority":"string","isCompleted":true}
+
+09:32:31.324 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 3165 milliseconds for URL: http://localhost:8080/todolist/post
+09:32:31.402 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:32:31.417 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/todolist/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+09:32:33.481 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 2064 milliseconds for URL: http://localhost:8080/todolist/get
+09:32:33.575 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:32:33.584 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/todolist/get/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+09:32:35.645 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 2062 milliseconds for URL: http://localhost:8080/todolist/get/1
+09:32:35.724 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:32:35.774 [main] DEBUG com.intuit.karate - 
+1 > DELETE http://localhost:8080/todolist/delete/5
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 1
+1 > Content-Type: text/plain
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+5
+
+09:32:37.829 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 2058 milliseconds for URL: http://localhost:8080/todolist/delete/5
+09:37:14.653 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+09:37:15.237 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/character/character.feature
+09:37:19.627 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:37:21.671 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/todolist/post
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 77
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":2,"name":"hi","status":"string","priority":"string","isCompleted":true}
+
+09:37:24.290 [main] DEBUG com.intuit.karate - 
+1 < 201
+1 < Content-Length: 0
+1 < Date: Wed, 20 Sep 2017 04:07:24 GMT
+1 < Location: http://localhost:8080/get/2
+
+09:37:24.290 [main] DEBUG com.intuit.karate - response time in milliseconds: 4368
+09:37:24.541 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:37:24.541 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/todolist/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+09:37:26.294 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 20 Sep 2017 04:07:25 GMT
+1 < Transfer-Encoding: chunked
+[{"id":1,"name":"hi","status":"string","priority":"string","isCompleted":true}]
+
+09:37:26.294 [main] DEBUG com.intuit.karate - response time in milliseconds: 1753
+09:37:26.372 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:37:26.387 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/todolist/get/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+09:37:26.493 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 20 Sep 2017 04:07:26 GMT
+1 < Transfer-Encoding: chunked
+{"id":1,"name":"hi","status":"string","priority":"string","isCompleted":true}
+
+09:37:26.494 [main] DEBUG com.intuit.karate - response time in milliseconds: 107
+09:37:26.561 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:37:26.638 [main] DEBUG com.intuit.karate - 
+1 > DELETE http://localhost:8080/todolist/delete/5
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 1
+1 > Content-Type: text/plain
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+5
+
+09:37:26.958 [main] DEBUG com.intuit.karate - 
+1 < 500
+1 < Connection: close
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 20 Sep 2017 04:07:26 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":1505880446931,"status":500,"error":"Internal Server Error","exception":"org.springframework.dao.EmptyResultDataAccessException","message":"No class com.kgfsl.fixme.model.Todo entity with id 5 exists!","path":"/todolist/delete/5"}
+
+09:37:26.959 [main] DEBUG com.intuit.karate - response time in milliseconds: 324
+09:44:21.476 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+09:44:21.838 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /D:/karate/myproject/target/test-classes/examples/todo/Todo.feature
+09:44:23.692 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:44:24.644 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/todolist/post
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 77
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":2,"name":"hi","status":"string","priority":"string","isCompleted":true}
+
+09:44:24.874 [main] DEBUG com.intuit.karate - 
+1 < 201
+1 < Content-Length: 0
+1 < Date: Wed, 20 Sep 2017 04:14:24 GMT
+1 < Location: http://localhost:8080/get/2
+
+09:44:24.874 [main] DEBUG com.intuit.karate - response time in milliseconds: 999
+09:44:25.045 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:44:25.076 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/todolist/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+09:44:25.090 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 20 Sep 2017 04:14:24 GMT
+1 < Transfer-Encoding: chunked
+[{"id":1,"name":"hi","status":"string","priority":"string","isCompleted":true},{"id":2,"name":"hi","status":"string","priority":"string","isCompleted":true}]
+
+09:44:25.091 [main] DEBUG com.intuit.karate - response time in milliseconds: 15
+09:44:25.173 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:44:25.197 [main] DEBUG com.intuit.karate - 
+1 > GET http://localhost:8080/todolist/get/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+09:44:25.227 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 20 Sep 2017 04:14:24 GMT
+1 < Transfer-Encoding: chunked
+{"id":1,"name":"hi","status":"string","priority":"string","isCompleted":true}
+
+09:44:25.227 [main] DEBUG com.intuit.karate - response time in milliseconds: 32
+09:44:25.397 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:44:25.445 [main] DEBUG com.intuit.karate - 
+1 > DELETE http://localhost:8080/todolist/delete/5
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 1
+1 > Content-Type: text/plain
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+5
+
+09:44:25.541 [main] DEBUG com.intuit.karate - 
+1 < 500
+1 < Connection: close
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 20 Sep 2017 04:14:24 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":1505880865537,"status":500,"error":"Internal Server Error","exception":"org.springframework.dao.EmptyResultDataAccessException","message":"No class com.kgfsl.fixme.model.Todo entity with id 5 exists!","path":"/todolist/delete/5"}
+
+09:44:25.544 [main] DEBUG com.intuit.karate - response time in milliseconds: 102
